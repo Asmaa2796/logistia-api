@@ -1,26 +1,10 @@
 {
-  "dependencies": {
-    "cors": "^2.8.5",
-    "json-serve": "^0.1.0",
-    "json-server": "^0.17.3"
-  },
-  "name": "dojo-blog",
+  "name": "json-server",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "start": "node index.js"
+    "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Asmaa2796/dojo-blog.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Asmaa2796/dojo-blog/issues"
-  },
-  "homepage": "https://github.com/Asmaa2796/dojo-blog#readme",
-  "description": ""
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
 }
