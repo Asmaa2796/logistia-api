@@ -1,39 +1,62 @@
 {
-    "blogs": [
-      {
-        "id": 1,
-        "title": "Programming made easy",
-        "description": "We focus on simplicity. Programming tutorials and examples written in simple, understandable language for beginners.",
-        "author": "Asmaa",
-        "category": "React js"
-      },
-      {
-        "id": 2,
-        "title": "Content You Can Trust",
-        "description": "A dedicated group of experts continually working to create programming resources that is accurate and easier to understand.",
-        "author": "Asmaa",
-        "category": "JavaScript"
-      },
-      {
-        "id": 3,
-        "title": "Learn by Doing",
-        "description": "A dedicated group of experts continually working to create programming resources that is accurate and easier to understand.",
-        "author": "test",
-        "category": "Css"
-      },
-      {
-        "title": "Learn programming",
-        "description": "We believe coding should be accessible to all. So we made our own compilers for web and mobile. And it's free!",
-        "author": "Asmaa",
-        "id": 4,
-        "category": "React js"
-      },
-      {
-        "title": "Thinking in React Hooks",
-        "description": "React introduced hooks one year ago, and they've been a game-changer for a lot of developers. There are tons of how-to introduction resources out there, but I want to talk about the fundamental mindset change when switching from React class components to function components + hooks.",
-        "author": "Asmaa",
-        "id": 5,
-        "category": "Css"
-      }
-    ]
-  }
+  "services": [
+    {
+      "id": 1,
+      "title": "Van transportation",
+      "photo": "service1.png",
+      "description": "Van transportation is a mode of transport using vans—versatile vehicles designed for carrying passengers or cargo."
+    },
+    {
+      "id": 2,
+      "title": "Heavy transportation",
+      "photo": "service2.png",
+      "description": "Heavy transportation refers to the movement of large or oversized loads that cannot be handled by standard transportation methods. "
+    },
+    {
+      "id": 3,
+      "title": "Air Transportation",
+      "photo": "service3.png",
+      "description": "Air transportation is a mode of transport that involves the movement of people and goods through the air using aircraft."
+    },
+    {
+      "title": "Goods Transportation",
+      "photo": "service4.png",
+      "description": "This process is essential for businesses to deliver goods to customers, distribute products within supply chains, and manage inventory.",
+      "id": 4
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "title": "The Importance of Transportation in Modern Society",
+      "photo": "b1.jpg",
+      "description": "Transportation is a crucial component of modern society, enabling the movement of people and goods across various distances. It plays a vital role in economic development, social connectivity, and environmental sustainability. As we navigate the complexities of urbanization and globalization, understanding the different modes of transportation and their impact on our lives becomes increasingly important."
+    },
+    {
+      "title": "The Evolution and Importance of Transportation",
+      "photo": "b2.jpg",
+      "description": "Transportation is a fundamental aspect of human civilization, enabling the movement of people and goods across various distances. From ancient caravans to modern high-speed trains and electric vehicles, the evolution of transportation has significantly shaped economies, cultures, and societies worldwide.",
+      "id": 2
+    },
+    {
+      "title": "Transportation: The Backbone of Modern Society",
+      "photo": "b3.jpg",
+      "description": "Transportation is essential to the functioning of our modern world, facilitating the movement of people and goods. From ancient trade routes to today’s advanced transportation networks, the evolution of transportation has dramatically influenced economies, cultures, and daily life.",
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "id":1,
+      "username":"asmaa",
+      "password":"1234",
+      "role":"admin"
+    },
+    {
+      "id":2,
+      "username":"asmaa",
+      "password":"123",
+      "role":"moderator"
+    }
+  ]
+}
