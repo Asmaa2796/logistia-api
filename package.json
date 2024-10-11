@@ -1,10 +1,16 @@
 {
-  "name": "json-server",
+  "name": "my-json-server",
   "version": "1.0.0",
+  "description": "A simple JSON server",
+  "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT"
+    "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT",
+    "build": "echo 'No build step needed'"
   },
   "dependencies": {
     "json-server": "^0.17.0"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
