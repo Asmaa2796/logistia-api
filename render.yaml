@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: json-server
-    env: node
-    plan: free
-    buildCommand: npm install
-    startCommand: json-server --watch db.json --port $PORT
